@@ -51,7 +51,7 @@ To systematicaly construct a pairwise alignment we need three things.
 
 ### Scoring function
 
-A scoring function, $d(x,y)$, giving the score of a column of any letter $x$ and $y$.  The letters could be DNA or RNA bases of amino acids, for know lets think about them as DNA bases. A typical scoring function could be:
+A scoring function, $d(x,y)$, giving the score of a column of any letter $x$ and $y$.  The letters could be DNA or RNA bases of amino acids, for now let's think about them as DNA bases. A typical scoring function could be:
 
 $$  
 d(x,y)= 
